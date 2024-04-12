@@ -23,7 +23,9 @@ pip install nltk
 - Run Doc2Vec.py, here you can specify if you wish to use a local LLM or OpenAI model(needs an api key) by changing this line in Doc2Vec:
 
 response = query_model_openai(documents[document_number], query_document) ## OpenAI model
+
 to
+
 response = query_model(documents[document_number], query_document) ## local LLM
 
 In each: Model.py or OpenAIModel.py you can configure which model to run.
