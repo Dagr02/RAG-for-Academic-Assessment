@@ -3,11 +3,17 @@
 ## Getting started
 1) Open the source code in an IDE. 
 2) Install required packages:
+
 pip install BeautifulSoup4
+
 pip install html2text (if wanting to use the regex + md data extraction)
+
 pip install gensim
+
 pip install --upgrade openai
+
 pip install gpt4all
+
 pip install nltk
 
 ### The intended workflow:
